@@ -9,8 +9,8 @@ class Player(pygame.sprite.Sprite):
         self.animation_speed = 0.08
         self.image = self.animations['idle'][self.frame_index]
         self.rect = self.image.get_rect(topleft=pos)
-        # self.health = 100
-        # self.max_health = self.health
+        self.health = 100
+        self.max_health = self.health
         # movement
         self.direction = pygame.math.Vector2(0, 0)
         self.speed = 5

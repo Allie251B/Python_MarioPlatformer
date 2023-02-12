@@ -16,25 +16,25 @@ def run_game(level_input: str) -> None:
 
     if level_input == "Easy":
         level = Level(level_map, screen)
-        sky = pygame.image.load('backgrounds/sky/sky.jpg').convert()
+        sky = pygame.image.load('./backgrounds/sky/sky.jpg').convert()
         mixer.init()
-        mixer.music.load('backgrounds/sound/soundtrack.mp3')
+        mixer.music.load('./backgrounds/sound/soundtrack.mp3')
         mixer.music.set_volume(0.3)  # Sets volume to 50%
         mixer.music.play()
     elif level_input == "Mid":
         level = Level(level_map2, screen)
-        sky = pygame.image.load('backgrounds/sky/sky2.jpg')
+        sky = pygame.image.load('./backgrounds/sky/sky2.jpg')
         sky = pygame.transform.scale(sky, (screen_width, screen_height))
         mixer.init()
-        mixer.music.load('backgrounds/sound/soundtrack2.mp3')
+        mixer.music.load('./backgrounds/sound/soundtrack2.mp3')
         mixer.music.set_volume(0.3)  # Sets volume to 50%
         mixer.music.play()
     elif level_input == "Hard":
         level = Level(level_map3, screen)
-        sky = pygame.image.load('backgrounds/sky/skyboss.jpg')
+        sky = pygame.image.load('./backgrounds/sky/skyboss.jpg')
         sky = pygame.transform.scale(sky, (screen_width, screen_height))
         mixer.init()
-        mixer.music.load('backgrounds/sound/FMI.mp3')
+        mixer.music.load('./backgrounds/sound/FMI.mp3')
         mixer.music.set_volume(0.3)  # Sets volume to 50%
         mixer.music.play()
     else:
