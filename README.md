@@ -5,6 +5,7 @@
 
 
 ## Overview
+
 This is a simple platformer game created using the Pygame library in Python.
 \
 A platformer, or platform video game, 
@@ -15,7 +16,9 @@ different platforms on the screen.
 Тhe game currently supports different difficulty levels, background music, 
 sound effects. The player can move, jump, 
 and collect bonuses as well as jump on an enemy to kill them.
+
 ---
+
 ## Requirements
 
 1. Clone or download the repository.
@@ -58,6 +61,7 @@ Also supported:
 
 ---
 ## User interaction
+
 When running `main.py` the program initializes prompt dialogue with the user.
 \
 From there the user can choose what difficulty he wants to play at.
