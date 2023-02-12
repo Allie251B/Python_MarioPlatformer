@@ -89,3 +89,5 @@ The level is finished if the second "Guide" is reached.
 
 ## Demo
 A very short and laggy [demo](https://youtu.be/Ii3KuxVWZto) of the actual gameplay
+
+![demo](https://user-images.githubusercontent.com/72564618/218331951-bc13fdde-e9e3-4991-a314-6b1a4ae767a9.gif)
