@@ -75,6 +75,7 @@ At the beginning of the map a "Guide" is spawned explain how the game works.
 If the player drops off the map the game is over and the player has to run the code again.
 \
 The level is finished if the second "Guide" is reached. 
+
 ---
 ## Notes
 * The game may not work correctly if the required files or images are moved or deleted.
