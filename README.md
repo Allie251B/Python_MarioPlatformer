@@ -6,10 +6,12 @@
 
 ## Overview
 This is a simple platformer game created using the Pygame library in Python.
+\
 A platformer, or platform video game, 
 is one that traditionally features two-dimensional graphics 
 in which players control characters who jump or and runs between 
 different platforms on the screen. 
+\
 Тhe game currently supports different difficulty levels, background music, 
 sound effects. The player can move, jump, 
 and collect bonuses as well as jump on an enemy to kill them.
@@ -57,11 +59,17 @@ Also supported:
 ---
 ## User interaction
 When running `main.py` the program initializes prompt dialogue with the user.
+\
 From there the user can choose what difficulty he wants to play at.
+\
 If the input is incorrect the game will not start and the user will be asked to type the difficulty again.
+\
 After choosing level difficulty a game window is open in the taskbar.
+\
 At the beginning of the map a "Guide" is spawned explain how the game works.
+\
 If the player drops off the map the game is over and the player has to run the code again.
+\
 The level is finished if the second "Guide" is reached. 
 ---
 ## Notes
