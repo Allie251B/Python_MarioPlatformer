@@ -33,9 +33,9 @@ level_map3 = [
 '                                                                                                                                                                                                 ',
 '                                  B                                                                                                                                                              ',
 '                                 XXX       M            M                    B                                 M                                                                                 ',
-'                         M   XX       M   XXX         XXXXX           M   XXXXXX                             XXXX         B                                        M           M                 ',
-'                        XXX          XXX        XXX                  XXX                          M    XXXX              XXX                                M    XXXX         XXX                ',
-'  P           X    XXXX                                         X X                X            XXXXX                 M          M                        XXXX                                 G ',
+'                         M   XX       M   XXX         XXXXX           M   XXXXXX                             XXXX                                                  M           M                 ',
+'                        XXX          XXX        XXX                  XXX                          M    XXXX               B                                 M    XXXX         XXX                ',
+'  P           X    XXXX                                         X X                X            XXXXX                 M  XXX     M                        XXXX                                 G ',
 'XXXXXXXXXX                                                  XX                         X   XXX                       XXXX      XXXXX   X    X    X    X               X   XX        XXXXXXXXXXXXX']
 
 block_size = 64
